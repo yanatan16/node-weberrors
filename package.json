@@ -1,0 +1,14 @@
+{
+  "name": "weberrors",
+  "description": "A simple web errors package.",
+  "version": "0.0.1",
+  "author": "Jon Eisen <jon@metricfeat.com>",
+  "keywords": [
+    "errors"
+  ],
+  "repository": "git://github.com/yanatan16/node-weberrors.git",
+  "main": "weberrors.js",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
