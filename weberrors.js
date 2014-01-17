@@ -10,7 +10,7 @@ function WebError(code, default_message, message) {
     return new WebError(code, default_message, message)
   }
 
-  this.code = code
+  this.code = this.status = code
   this.message = message || default_message
   Error.call(this, message || default_message)
   Error.captureStackTrace(this, WebError)
